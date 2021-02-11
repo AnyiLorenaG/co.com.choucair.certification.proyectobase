@@ -8,7 +8,6 @@ import net.serenitybdd.screenplay.actions.Open;
 
 public class OpenUp  implements Task {
 
-
    private ChoucairAcademyPage choucairAcademyPage;
     public static OpenUp thepage() {
 
@@ -19,6 +18,5 @@ public class OpenUp  implements Task {
 
         actor.attemptsTo(Open.browserOn(choucairAcademyPage));
     }
-
 
 }
