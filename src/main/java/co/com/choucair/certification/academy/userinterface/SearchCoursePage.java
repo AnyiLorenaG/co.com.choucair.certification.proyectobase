@@ -11,6 +11,6 @@ public class SearchCoursePage extends PageObject {
     public static final Target INPUT_COURSE = Target.the("Search the course").locatedBy("//input[@id='coursesearchbox']");
     public static final Target BUTTON_GO = Target.the("click to search the course").locatedBy("//button[@class='btn btn-secondary']");
     public static final Target SELECT_INPUT_COURSE = Target.the("click to search the course ").locatedBy("//input[@name='submitbutton']");
-    public static final Target NAME_COURSE = Target.the("Extract course name").locatedBy("//h1[contains(text(),'Recursos automatización  Bancolombia']");
+    public static final Target NAME_COURSE = Target.the("Extract course name").locatedBy("//a[contains(text(),'Bancolombia')]");
 
 }

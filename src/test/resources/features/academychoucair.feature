@@ -12,4 +12,4 @@
         | Metodologia Bancolombia |
       Then  he finds the course called
         | strCourse |
-        | Metodologia Bancolombia  |
+        | Metodología Bancolombia |

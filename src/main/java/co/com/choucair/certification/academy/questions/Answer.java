@@ -21,6 +21,7 @@ public class Answer implements Question<Boolean> {
     public Boolean answeredBy(Actor actor) {
         boolean result ;
         String nameCourse= Text.of(SearchCoursePage.NAME_COURSE).viewedBy(actor).asString();
+
         if(question.equals(nameCourse)){
             result=true;
         }else{

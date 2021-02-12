@@ -43,7 +43,7 @@ public class ChoucairAcademyStepDefinitions {
         OnStage.theActorInTheSpotlight().attemptsTo(Search.the(academyChoucairData.get(0).getStrCourse()));
     }
 
-    @Then("he finds the course called ")
+    @Then("^he finds the course called$")
     public void heFindsTheCourseCalledResourcesRecursosAutomatizacionBancolombia(List <AcademyChoucairData>academyChoucairData) throws Exception {
         OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.toThe(academyChoucairData.get(0).getStrCourse())));
 
