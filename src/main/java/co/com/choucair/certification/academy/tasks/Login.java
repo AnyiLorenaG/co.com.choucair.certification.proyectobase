@@ -13,9 +13,9 @@ public class Login implements Task {
     private String strUser;
     private String strPassword;
 
-    public Login(java.lang.String strUser) {
+    public Login(String strUser,String strPassword) {
         this.strUser = strUser;
-
+        this.strPassword = strPassword;
     }
 
     public static Login onThePage(String strUser,String strPassword) {
